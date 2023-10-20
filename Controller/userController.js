@@ -1,11 +1,11 @@
-import userModel from "../Model/userModel"
+import userModel from "../Model/userModel.js";
 import { validationResult } from "express-validator";
 import bcrypt from 'bcryptjs'
-import ErrorHandler from '../utils/errorHandeling.js'
+import {ErrorHandler} from '../utils/errorHandeling.js'
 
 const handler = new ErrorHandler();
 
-export default RegisterUser = async (req, res, next) => {
+export const RegisterUser = async (req, res, next) => {
     try{
         const result = validationResult(req);
         if(!result.isEmpty()){
@@ -13,7 +13,7 @@ export default RegisterUser = async (req, res, next) => {
         }
         const password = await bcrypt.hash(req.body.password, 12);
         const registerationDetail = {...req.body, password}
-        await userModel.create(req.body);
+        await userModel.create(registerationDetail);
         req.status(200).json({
             status: "success",
             message: "User Registered Successfully"
