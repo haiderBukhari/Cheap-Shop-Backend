@@ -1,0 +1,234 @@
+{
+    "products": [
+        {
+            "name": "Smartphone X1",
+            "price": 499.99,
+            "description": "A high-end smartphone with advanced features.",
+            "ratings": 4.5,
+            "images": [
+                {
+                    "public_id": "12345",
+                    "url": "https://example.com/image1.jpg"
+                },
+                {
+                    "public_id": "67890",
+                    "url": "https://example.com/image2.jpg"
+                }
+            ],
+            "category": "Electronics",
+            "seller": "Tech Store",
+            "stock": 50,
+            "totalreviews": 25,
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "rating": 5,
+                    "message": "Great product! I love it!"
+                },
+                {
+                    "name": "Jane Smith",
+                    "rating": 4,
+                    "message": "Good value for the price."
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Digital Camera A2",
+            "price": 299.99,
+            "description": "A compact digital camera with high-resolution images.",
+            "ratings": 4.2,
+            "images": [
+                {
+                    "public_id": "23456",
+                    "url": "https://example.com/image3.jpg"
+                }
+            ],
+            "category": "Cameras",
+            "seller": "Camera World",
+            "stock": 20,
+            "totalreviews": 12,
+            "reviews": [
+                {
+                    "name": "Alice Johnson",
+                    "rating": 4,
+                    "message": "Nice camera for travel photography."
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Laptop Z1",
+            "price": 799.99,
+            "description": "A powerful laptop for gaming and productivity.",
+            "ratings": 4.8,
+            "images": [
+                {
+                    "public_id": "34567",
+                    "url": "https://example.com/image4.jpg"
+                }
+            ],
+            "category": "Laptop",
+            "seller": "Gaming Gear Shop",
+            "stock": 10,
+            "totalreviews": 15,
+            "reviews": [
+                {
+                    "name": "Robert Anderson",
+                    "rating": 5,
+                    "message": "Excellent laptop for gaming!"
+                },
+                {
+                    "name": "Emily Brown",
+                    "rating": 4,
+                    "message": "Fast delivery and great performance."
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Wireless Headphones H1",
+            "price": 99.99,
+            "description": "High-quality wireless headphones with noise cancellation.",
+            "ratings": 4.3,
+            "images": [
+                {
+                    "public_id": "45678",
+                    "url": "https://example.com/image5.jpg"
+                }
+            ],
+            "category": "Headphones",
+            "seller": "Audio Store",
+            "stock": 30,
+            "totalreviews": 18,
+            "reviews": [
+                {
+                    "name": "Sarah Wilson",
+                    "rating": 4,
+                    "message": "Impressive sound quality!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Deluxe Backpack",
+            "price": 49.99,
+            "description": "A durable and stylish backpack for outdoor adventures.",
+            "ratings": 4.7,
+            "images": [
+                {
+                    "public_id": "56789",
+                    "url": "https://example.com/image6.jpg"
+                }
+            ],
+            "category": "Outdoor",
+            "seller": "Adventure Gear Shop",
+            "stock": 40,
+            "totalreviews": 22,
+            "reviews": [
+                {
+                    "name": "Michael Clark",
+                    "rating": 5,
+                    "message": "Great backpack for hiking!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Gourmet Chocolate Assortment",
+            "price": 29.99,
+            "description": "A delicious assortment of gourmet chocolates.",
+            "ratings": 4.6,
+            "images": [
+                {
+                    "public_id": "67890",
+                    "url": "https://example.com/image7.jpg"
+                }
+            ],
+            "category": "Food",
+            "seller": "Chocolatier Delights",
+            "stock": 100,
+            "totalreviews": 30,
+            "reviews": [
+                {
+                    "name": "Eva Martinez",
+                    "rating": 5,
+                    "message": "Mouthwatering chocolates!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Classic Novels Collection",
+            "price": 79.99,
+            "description": "A set of classic novels by renowned authors.",
+            "ratings": 4.9,
+            "images": [
+                {
+                    "public_id": "78901",
+                    "url": "https://example.com/image8.jpg"
+                }
+            ],
+            "category": "Books",
+            "seller": "Book Emporium",
+            "stock": 15,
+            "totalreviews": 28,
+            "reviews": [
+                {
+                    "name": "David Miller",
+                    "rating": 5,
+                    "message": "Timeless classics in one collection!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Designer Shoes S3",
+            "price": 149.99,
+            "description": "Stylish designer shoes for any occasion.",
+            "ratings": 4.4,
+            "images": [
+                {
+                    "public_id": "89012",
+                    "url": "https://example.com/image9.jpg"
+                }
+            ],
+            "category": "Shoes",
+            "seller": "Fashion Boutique",
+            "stock": 25,
+            "totalreviews": 14,
+            "reviews": [
+                {
+                    "name": "Sophia Adams",
+                    "rating": 4,
+                    "message": "Love the design and comfort!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        },
+        {
+            "name": "Organic Beauty Set",
+            "price": 39.99,
+            "description": "An organic beauty set for skincare enthusiasts.",
+            "ratings": 4.5,
+            "images": [
+                {
+                    "public_id": "90123",
+                    "url": "https://example.com/image10.jpg"
+                }
+            ],
+            "category": "Beauty/Health",
+            "seller": "Natural Beauty Store",
+            "stock": 35,
+            "totalreviews": 20,
+            "reviews": [
+                {
+                    "name": "Olivia Turner",
+                    "rating": 5,
+                    "message": "My skin feels amazing after using these products!"
+                }
+            ],
+            "createdAt": "2023-10-06T00:00:00.000Z"
+        }
+    ]
+}
